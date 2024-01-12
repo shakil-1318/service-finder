@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>SurfsideMedia - Online Service Provider for your House Needs</title>
+    <title>Service Finder - Online Service Provider for your Needs</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -50,8 +50,8 @@
 
                 <ul class="collapse">
                     <li class="title d-flex justify-content-center align-items-center">
-                        <a href="#">Service Share</a>
-                        <!-- <a href="index.php.html"><img src="{{ asset('images/logo.png') }}"></a> -->
+                        <!-- <a href="#">Service Finder</a> -->
+                        <a href="/"><img src="{{ asset('images/logo.png') }}" style="width: 120px"></a>
                     </li>
                     <li> <a href="javascript:void(0);">Air Conditioners</a>
                         <ul class="drop-down one-column hover-fade">

@@ -19,7 +19,7 @@
             </div>
             <div class="filter-title">
                 <div class="title-header">
-                    <h2 style="color:#fff;">BOOK A SERVICE</h2>
+                    <h2 style="color:#fff;">Hire Experts & Get Your Job Done</h2>
                     <p class="lead">Book a service at very affordable price, </p>
                 </div>
                 <div class="filter-header">
