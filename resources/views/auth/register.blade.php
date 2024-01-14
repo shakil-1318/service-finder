@@ -1,6 +1,22 @@
 
 
 <x-base-layout>
+<style>
+         .back-login{
+        display: flex;
+    justify-content: center;
+    margin: 15px 0;
+    }
+    .form-title{
+        text-align: center !important;
+        margin-bottom: 30px !important;
+        font-size: 24px !important;
+        color: #022278 !important;
+        font-weight:600 !important;
+    }
+    
+
+    </style>
 <div class="section-title-01 honmob">
             <div class="bg_parallax image_02_parallax"></div>
             <div class="opacy_bg_02">
@@ -25,21 +41,21 @@
                         <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-3 profile1" style="padding-bottom:40px;">
                             <div class="thinborder-ontop">
 
-                                <h3>User Info</h3>
+                                <h3 class="form-title">Registration</h3>
                                 <x-validation-errors class="mb-4" />
                                 <form id="userregisterationform" method="POST" action="{{route('register')}}">                                    
                                 @csrf       
                                 <div class="form-group row">
                                         <label for="name" class="col-md-4 col-form-label text-md-right">Name</label>
                                         <div class="col-md-6">
-                                            <input id="name" type="text" class="form-control" name="name" value="" required="" autofocus="">
+                                            <input id="name" type="text" class="form-control" name="name" placeholder="Name" value="" required="" autofocus="">
                                         </div>
                                     </div>
 
                                     <div class="form-group row">
                                         <label for="email" class="col-md-4 col-form-label text-md-right">E-Mail Address</label>
                                         <div class="col-md-6">
-                                            <input id="email" type="email" class="form-control" name="email" value="" required="">
+                                            <input id="email" type="email" class="form-control" placeholder="Email" name="email" value="" required="">
                                         </div>
                                     </div>
 
@@ -48,7 +64,7 @@
                                         <label for="password"
                                             class="col-md-4 col-form-label text-md-right">Password</label>
                                         <div class="col-md-6">
-                                            <input id="password" type="password" class="form-control" name="password" required="">
+                                            <input id="password" type="password" class="form-control" placeholder="Password" name="password" required="">
                                         </div>
                                     </div>
 
@@ -56,14 +72,14 @@
                                         <label for="password-confirm"
                                             class="col-md-4 col-form-label text-md-right">Confirm Password</label>
                                         <div class="col-md-6">
-                                            <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required="">
+                                            <input id="password-confirm" type="password" class="form-control" placeholder="Confirm-password" name="password_confirmation" required="">
                                         </div>
                                     </div>
 
                                     <div class="form-group row">
                                         <label for="phone" class="col-md-4 col-form-label text-md-right">Phone</label>
                                         <div class="col-md-6">
-                                            <input id="phone" type="text" class="form-control" name="phone" value="" required="">
+                                            <input id="phone" type="text" class="form-control" name="phone" placeholder="phone" value="" required="">
                                         </div>
                                     </div>
 
@@ -79,9 +95,10 @@
 
                                     <div class="form-group row mb-0">
                                         <div class="col-md-10">
-                                            <span style="font-size: 14px;">If you have already registered <a
+                                      
+                                            <span style="font-size: 14px;" class="back-login">If you have already registered <a
                                             href="{{route('login')}}" title="Login">click here</a> to login</span>
-                                            <button type="submit" class="btn btn-primary pull-right">Register</button>
+                                            <button type="submit" class="btn btn-primary pull-right my-3">Register</button>
                                         </div>
                                     </div>
                                 </form>
@@ -90,17 +107,7 @@
                     </div>
                 </div>
             </div>  
-            <div class="section-twitter">
-                <i class="fa fa-twitter icon-big"></i>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="text-center">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>             
+                       
         </section>
 </x-base-layout>
 

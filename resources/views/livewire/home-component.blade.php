@@ -10,7 +10,7 @@
                     </li>
                     <li data-transition="slidehorizontal" data-slotamount="1" data-masterspeed="1000"
                         data-saveperformance="off" data-title="Slide">
-                        <img src="{{ asset('assets/img/slide/2.jpg') }}" alt="fullslide1" data-bgposition="top center"
+                        <img src="{{ asset('assets/img/slide/1.jpg') }}" alt="fullslide1" data-bgposition="top center"
                             data-kenburns="on" data-duration="6000" data-ease="Linear.easeNone" data-bgfit="130"
                             data-bgfitend="100" data-bgpositionend="right center">
                     </li>
@@ -30,7 +30,7 @@
                     </form>
                 </div>
             </div>
-        </section>
+</section>
         <section class="content-central">
             <div class="content_info content_resalt">
                 <div class="container" style="margin-top: 40px;">
@@ -38,6 +38,7 @@
                     </div>
                 </div>
                 <div class="container">
+
                     <div class="row">
                         <div class="col-md-12">
                             <ul id="sponsors" class="tooltip-hover">
@@ -100,10 +101,10 @@
                     </div>
                 </div>
             </div>
-            <div class="semiboxshadow text-center">
+            <!-- <div class="semiboxshadow text-center">
                 <img src="{{ asset('assets/img/img-theme/shp.png') }}" class="img-responsive" alt="">
-            </div>
-            <div class="content_info">
+            </div> -->
+            <!-- <div class="content_info">
                 <div>
                     <div class="container">
                         <div class="row">
@@ -280,8 +281,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div>
+            </div> -->
+            <!-- <div>
                 <div class="container">
                     <div class="row">
                         <div class="titles">
@@ -437,6 +438,135 @@
                         </a>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </section>
+
+<!-- Statics -->
+ <div class="site-bg-primary aon-statics-area sf-curve-pos">
+                <div class="container">
+
+                    <div class="section-content">
+                        <div class="row d-flex flex-wrap align-items-center a-b-none">
+                            <div class="col-lg-6 col-md-12">
+                                <!--Title Section Start-->
+                                <div class="section-head">
+                                    <span class="aon-sub-title">Statics</span>
+                                    <h2 class="sf-title">Trusted by thousands of people all over the world</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. </p>
+                                </div>
+                                <!--Title Section End-->
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <!--Statics-blocks Section Start-->
+                                <div class="aon-statics-blocks">
+                                    <div class="row">
+                                        <!--Block 1-->
+                                        <div class="col-lg-6 m-b30 aon-static-position-1">
+                                            <div class="media-bg-animate media-statics aon-icon-effect">
+                                                <div class="aon-static-section aon-t-blue">
+                                                    <div class="aon-company-static-num counter aon-icon">36</div>
+                                                    <div class="aon-company-static-name">Providers</div>
+                                                </div>
+                                            </div>
+                                            <div class="media-bg-animate media-statics aon-icon-effect">
+                                                <div class="aon-static-section aon-t-yellow">
+                                                    <div class="aon-company-static-num counter aon-icon">108</div>
+                                                    <div class="aon-company-static-name">Jobs</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!--Block 2-->
+                                        <div class="col-lg-6 m-b30 aon-static-position-2">
+                                            <div class="media-bg-animate media-statics aon-icon-effect">
+                                                <div class="aon-static-section aon-t-green">
+                                                    <div class="aon-company-static-num counter aon-icon">89</div>
+                                                    <div class="aon-company-static-name">Customer</div>
+                                                </div>
+                                            </div>
+                                            <div class="media-bg-animate media-statics aon-icon-effect">
+                                                <div class="aon-static-section aon-t-skyblue">
+                                                    <div class="aon-company-static-num counter aon-icon">59</div>
+                                                    <div class="aon-company-static-name">Categories</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Statics-blocks Section End-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
 </div>
+
+  <!-- Why Choose us -->    
+  <div class="aon-whycoose-area sf-curve-pos">
+                <div class="container">
+                    <div class="sf-whycoose-section">
+                        <div class="row sf-w-choose-bg-outer d-flex flex-wrap a-b-none">
+                            <!-- Left Section -->
+                            <div class="col-md-5 margin-b-50 sf-w-choose-left-cell">
+                                <div class="sf-w-choose-info-left">
+                                    <!--Title Section Start-->
+                                    <div class="section-head">
+                                        <div class="row">
+                                            <div class="col-md-12  margin-b-50">
+                                                <span class="aon-sub-title">Choose</span>
+                                                <h2 class="choose-title">Why Choose us</h2>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Title Section End-->
+
+                                    <!-- COLUMNS 1 -->
+                                    <div class="sf-w-choose margin-b-20">
+                                        <div class="sf-w-choose-icon">
+                                            <span>
+                                           
+                                                <img src="{{ asset('assets/img/icons/1.png') }}" alt="">
+                                            </span>
+                                        </div>
+                                        <div class="sf-w-choose-info">
+                                            <h4 class="sf-title">Meet new customers</h4>
+                                            <p>Suspendisse tincidunt rutrum ante. Vestibulum elementum ipsum sit amet turpis elementum lobortis.</p>
+                                        </div>
+                                    </div>
+                                    <!-- COLUMNS 2 -->
+                                    <div class="sf-w-choose margin-b-20">
+                                        <div class="sf-w-choose-icon">
+                                            <span>
+                                            <img src="{{ asset('assets/img/icons/2.png') }}" alt="">
+                                            </span>
+                                        </div>
+                                        <div class="sf-w-choose-info">
+                                            <h4 class="sf-title">Grow your revenue</h4>
+                                            <p>Suspendisse tincidunt rutrum ante. Vestibulum elementum ipsum sit amet turpis elementum lobortis.</p>
+                                        </div>
+                                    </div>
+                                    <!-- COLUMNS 3 -->
+                                    <div class="sf-w-choose">
+                                        <div class="sf-w-choose-icon">
+                                            <span>
+                                            <img src="{{ asset('assets/img/icons/1.png') }}" alt="">
+                                            </span>
+                                        </div>
+                                        <div class="sf-w-choose-info">
+                                            <h4 class="sf-title">Build your online reputation</h4>
+                                            <p>Suspendisse tincidunt rutrum ante. Vestibulum elementum ipsum sit amet turpis elementum lobortis.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Right Section -->
+                            <div class="col-md-7 sf-w-choose-bg-wrap sf-w-choose-right-cell">
+                            <img class="img-fluid" src="{{ asset('assets/img/icons/why-choose.jpg') }}" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Why Choose us END -->
